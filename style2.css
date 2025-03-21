@@ -1,0 +1,40 @@
+body{
+    background-color: chocolate;
+    
+}
+
+h1{
+    margin-left: 715px;
+    color: gold;
+}
+
+
+form{
+    background-color: chartreuse;
+     margin: auto;
+     width: 400px;
+     border-radius: 15px;
+ }   
+
+
+.Inputs{
+
+    margin: auto;
+    margin-left: 75px;
+    margin-top: 5px;
+    height: 20px;
+}
+
+button{
+    margin: auto;
+    width: 80px;
+    height: 30px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    outline-style: groove;
+}
