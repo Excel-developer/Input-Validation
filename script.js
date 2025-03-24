@@ -20,6 +20,7 @@ function check(){
         a = true
     }else{
         document.getElementById('Check').innerText = 'Full Name can only Include Letters'
+         document.getElementById('Check').style.color = 'red'
         a = false
         
     }
@@ -36,6 +37,7 @@ function check(){
          a = true
     }else{
         document.getElementById('Check2').innerText = 'User Name must be between 3 to 16 characters and cannot include numbers'
+         document.getElementById('Check2').style.color = 'red'
         a = false
         
     }
@@ -49,6 +51,7 @@ function check(){
           a = true
     }else{
          document.getElementById('Check3').innerText = 'Email Address must be in standard format'
+         document.getElementById('Check3').style.color = 'red'
          a = false
          
     }
@@ -61,6 +64,7 @@ function check(){
       a = true
     }else{
      document.getElementById('Check4').innerText =  'Paasword must be 8 characters, contain a special character, have a number, have at least one uppercase letter and one lowercase'
+     document.getElementById('Check4').style.color = 'red'
      a = false
      
    }
@@ -75,6 +79,7 @@ function check(){
       a = true
     }else{
      document.getElementById('Check5').innerText =  'Passwords do not match'
+     document.getElementById('Check5').style.color = 'red'
      a = false
      
    }
